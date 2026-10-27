@@ -1,0 +1,27 @@
+# Root ignores for Docker build
+.git
+.github
+node_modules
+frontend/node_modules
+__pycache__
+**/__pycache__
+*.pyc
+.pytest_cache
+.env
+*.log
+_server.log
+.operator-notes.md
+
+# Test artifacts
+_test_data_ri
+_test_data_ui
+
+# Backups
+*.bak
+site_db.json.bak*
+
+# Frontend build output (we rebuild inside the image)
+frontend/dist
+frontend/build
+
+# Keep README (Render shows it), ignore other md noise is optional

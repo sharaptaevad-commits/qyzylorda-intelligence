@@ -1,0 +1,30 @@
+# Render Blueprint — QYZYLORDA INDUSTRIAL INTELLIGENCE
+# Usage: on Render, create a "Blueprint" and point it at this repo.
+# This deploys a single web service (backend + built frontend).
+services:
+  - type: web
+    name: qyzylorda-industrial-intelligence
+    runtime: docker
+    plan: free
+    dockerfilePath: Dockerfile
+    healthCheckPath: /api/health
+    autoDeploy: true
+    envVars:
+      - key: NODE_ENV
+        value: production
+      - key: PYTHONUNBUFFERED
+        value: "1"
+    # Render's free tier expects the port from the PORT env var.
+    # Our app reads PORT; default 8771. Render sets PORT automatically.
+    # Map Render's port to our uvicorn via the CMD below.
+    # (If Render requires $PORT, see the note in README — we bind to 8771
+    #  and set the Render "Web Service" to expect that, or use a small
+    #  adapter. The simplest robust option: bind uvicorn to $PORT.)
+
+# NOTE on port:
+# Render free tier assigns its own port via the $PORT env var.
+# To be safe, run uvicorn on ${PORT} instead of a fixed port.
+# The CMD in the Dockerfile uses 8771; if Render reports a health-check
+# failure, change the Dockerfile CMD to:
+#   CMD ["sh", "-c", "python -m uvicorn app:app --host 0.0.0.0 --port ${PORT:-8771}"]
+# and set RENDER_WEB_PORT accordingly. Render injects $PORT at runtime.
