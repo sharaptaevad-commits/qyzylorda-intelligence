@@ -1,0 +1,13 @@
+{
+ "default_lang": "ru",
+ "org_name": "QYZYLORDA INDUSTRIAL INTELLIGENCE",
+ "region": "Кызылординская область",
+ "max_upload_mb": 25,
+ "match_tolerance_pct": 1.0,
+ "ai_provider": "rules",
+ "external_ai_configured": false,
+ "report_intake_enabled": false,
+ "forecast_report_enabled": false,
+ "alert_threshold_high": 20.0,
+ "alert_threshold_medium": 10.0
+}

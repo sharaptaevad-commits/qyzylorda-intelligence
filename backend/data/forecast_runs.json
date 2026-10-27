@@ -1,0 +1,2155 @@
+[
+ {
+  "id": "18e5203126",
+  "ts": 1792970850.155982,
+  "horizon": 3,
+  "sufficiency": {
+   "n": 11,
+   "need": 8,
+   "sufficient": true,
+   "reason": null,
+   "gaps": 1,
+   "has_gaps": true
+  },
+  "available": true,
+  "history_months": 11,
+  "best_model": "moving_avg",
+  "metrics": {
+   "naive": {
+    "mae": 0.833333333333338,
+    "rmse": 0.9949874371066229,
+    "mase": 0.4137115839243524,
+    "mape": 100.0
+   },
+   "moving_avg": {
+    "mae": 0.788888888888893,
+    "rmse": 0.8962886439832523,
+    "mase": 0.39164696611505345,
+    "mape": 136.82539682539357
+   },
+   "holt": {
+    "mae": 8.65855588647068,
+    "rmse": 8.805742872186785,
+    "mase": 4.298573844347148,
+    "mape": 3099.5518953689184
+   },
+   "seasonal_naive": {
+    "mae": 0.833333333333338,
+    "rmse": 0.9949874371066229,
+    "mase": 0.4137115839243524,
+    "mape": 100.0
+   }
+  },
+  "forecast": [
+   {
+    "month_index": 13,
+    "label": "январь(1)",
+    "value": -0.7666666666666657
+   },
+   {
+    "month_index": 14,
+    "label": "февраль(1)",
+    "value": -0.7666666666666657
+   },
+   {
+    "month_index": 15,
+    "label": "март(1)",
+    "value": -0.7666666666666657
+   }
+  ],
+  "rmse": 0.8962886439832523,
+  "interval": 1.0,
+  "history": [
+   {
+    "month": 1,
+    "label": "январь",
+    "value": null,
+    "cumulative": 97.6,
+    "unit": "%",
+    "derived": false
+   },
+   {
+    "month": 2,
+    "label": "февраль",
+    "value": 0.5,
+    "cumulative": 98.1,
+    "unit": "%",
+    "derived": true
+   },
+   {
+    "month": 3,
+    "label": "март",
+    "value": 3.4000000000000057,
+    "cumulative": 101.5,
+    "unit": "%",
+    "derived": true
+   },
+   {
+    "month": 4,
+    "label": "апрель",
+    "value": 0.7999999999999972,
+    "cumulative": 102.3,
+    "unit": "%",
+    "derived": true
+   },
+   {
+    "month": 5,
+    "label": "май",
+    "value": -1.8999999999999915,
+    "cumulative": 100.4,
+    "unit": "%",
+    "derived": true
+   },
+   {
+    "month": 6,
+    "label": "июнь",
+    "value": -0.4000000000000057,
+    "cumulative": 100.0,
+    "unit": "%",
+    "derived": true
+   },
+   {
+    "month": 7,
+    "label": "июль",
+    "value": -1.4000000000000057,
+    "cumulative": 98.6,
+    "unit": "%",
+    "derived": true
+   },
+   {
+    "month": 8,
+    "label": "август",
+    "value": 1.0,
+    "cumulative": 99.6,
+    "unit": "%",
+    "derived": true
+   },
+   {
+    "month": 9,
+    "label": "сентябрь",
+    "value": 0.0,
+    "cumulative": 99.6,
+    "unit": "%",
+    "derived": true
+   },
+   {
+    "month": 10,
+    "label": "октябрь",
+    "value": -1.0,
+    "cumulative": 98.6,
+    "unit": "%",
+    "derived": true
+   },
+   {
+    "month": 11,
+    "label": "ноябрь",
+    "value": 0.10000000000000853,
+    "cumulative": 98.7,
+    "unit": "%",
+    "derived": true
+   },
+   {
+    "month": 12,
+    "label": "декабрь",
+    "value": -1.4000000000000057,
+    "cumulative": 97.3,
+    "unit": "%",
+    "derived": true
+   }
+  ],
+  "explanation": "trend_down",
+  "metric": "industry_total",
+  "region": "Кызылординская область",
+  "unit": "%",
+  "metric_label": "Өнеркәсіп (барлығы)"
+ },
+ {
+  "id": "b43240cb41",
+  "ts": 1792970966.0953894,
+  "horizon": 3,
+  "sufficiency": {
+   "n": 11,
+   "need": 8,
+   "sufficient": true,
+   "reason": null,
+   "gaps": 1,
+   "has_gaps": true
+  },
+  "available": true,
+  "history_months": 11,
+  "best_model": "moving_avg",
+  "metrics": {
+   "naive": {
+    "mae": 0.833333333333338,
+    "rmse": 0.9949874371066229,
+    "mase": 0.4137115839243524,
+    "mape": 100.0
+   },
+   "moving_avg": {
+    "mae": 0.788888888888893,
+    "rmse": 0.8962886439832523,
+    "mase": 0.39164696611505345,
+    "mape": 136.82539682539357
+   },
+   "holt": {
+    "mae": 8.65855588647068,
+    "rmse": 8.805742872186785,
+    "mase": 4.298573844347148,
+    "mape": 3099.5518953689184
+   },
+   "seasonal_naive": {
+    "mae": 0.833333333333338,
+    "rmse": 0.9949874371066229,
+    "mase": 0.4137115839243524,
+    "mape": 100.0
+   }
+  },
+  "forecast": [
+   {
+    "month_index": 13,
+    "label": "январь(1)",
+    "value": -0.7666666666666657
+   },
+   {
+    "month_index": 14,
+    "label": "февраль(1)",
+    "value": -0.7666666666666657
+   },
+   {
+    "month_index": 15,
+    "label": "март(1)",
+    "value": -0.7666666666666657
+   }
+  ],
+  "rmse": 0.8962886439832523,
+  "interval": 1.0,
+  "history": [
+   {
+    "month": 1,
+    "label": "январь",
+    "value": null,
+    "cumulative": 97.6,
+    "unit": "%",
+    "derived": false
+   },
+   {
+    "month": 2,
+    "label": "февраль",
+    "value": 0.5,
+    "cumulative": 98.1,
+    "unit": "%",
+    "derived": true
+   },
+   {
+    "month": 3,
+    "label": "март",
+    "value": 3.4000000000000057,
+    "cumulative": 101.5,
+    "unit": "%",
+    "derived": true
+   },
+   {
+    "month": 4,
+    "label": "апрель",
+    "value": 0.7999999999999972,
+    "cumulative": 102.3,
+    "unit": "%",
+    "derived": true
+   },
+   {
+    "month": 5,
+    "label": "май",
+    "value": -1.8999999999999915,
+    "cumulative": 100.4,
+    "unit": "%",
+    "derived": true
+   },
+   {
+    "month": 6,
+    "label": "июнь",
+    "value": -0.4000000000000057,
+    "cumulative": 100.0,
+    "unit": "%",
+    "derived": true
+   },
+   {
+    "month": 7,
+    "label": "июль",
+    "value": -1.4000000000000057,
+    "cumulative": 98.6,
+    "unit": "%",
+    "derived": true
+   },
+   {
+    "month": 8,
+    "label": "август",
+    "value": 1.0,
+    "cumulative": 99.6,
+    "unit": "%",
+    "derived": true
+   },
+   {
+    "month": 9,
+    "label": "сентябрь",
+    "value": 0.0,
+    "cumulative": 99.6,
+    "unit": "%",
+    "derived": true
+   },
+   {
+    "month": 10,
+    "label": "октябрь",
+    "value": -1.0,
+    "cumulative": 98.6,
+    "unit": "%",
+    "derived": true
+   },
+   {
+    "month": 11,
+    "label": "ноябрь",
+    "value": 0.10000000000000853,
+    "cumulative": 98.7,
+    "unit": "%",
+    "derived": true
+   },
+   {
+    "month": 12,
+    "label": "декабрь",
+    "value": -1.4000000000000057,
+    "cumulative": 97.3,
+    "unit": "%",
+    "derived": true
+   }
+  ],
+  "explanation": "trend_down",
+  "metric": "industry_total",
+  "region": "Кызылординская область",
+  "unit": "%",
+  "metric_label": "Өнеркәсіп (барлығы)"
+ },
+ {
+  "id": "1583ccfdef",
+  "ts": 1792970994.8547225,
+  "horizon": 3,
+  "sufficiency": {
+   "n": 11,
+   "need": 8,
+   "sufficient": true,
+   "reason": null,
+   "gaps": 1,
+   "has_gaps": true
+  },
+  "available": true,
+  "history_months": 11,
+  "best_model": "moving_avg",
+  "metrics": {
+   "naive": {
+    "mae": 0.833333333333338,
+    "rmse": 0.9949874371066229,
+    "mase": 0.4137115839243524,
+    "mape": 100.0
+   },
+   "moving_avg": {
+    "mae": 0.788888888888893,
+    "rmse": 0.8962886439832523,
+    "mase": 0.39164696611505345,
+    "mape": 136.82539682539357
+   },
+   "holt": {
+    "mae": 8.65855588647068,
+    "rmse": 8.805742872186785,
+    "mase": 4.298573844347148,
+    "mape": 3099.5518953689184
+   },
+   "seasonal_naive": {
+    "mae": 0.833333333333338,
+    "rmse": 0.9949874371066229,
+    "mase": 0.4137115839243524,
+    "mape": 100.0
+   }
+  },
+  "forecast": [
+   {
+    "month_index": 13,
+    "label": "январь(1)",
+    "value": -0.7666666666666657
+   },
+   {
+    "month_index": 14,
+    "label": "февраль(1)",
+    "value": -0.7666666666666657
+   },
+   {
+    "month_index": 15,
+    "label": "март(1)",
+    "value": -0.7666666666666657
+   }
+  ],
+  "rmse": 0.8962886439832523,
+  "interval": 1.0,
+  "history": [
+   {
+    "month": 1,
+    "label": "январь",
+    "value": null,
+    "cumulative": 97.6,
+    "unit": "%",
+    "derived": false
+   },
+   {
+    "month": 2,
+    "label": "февраль",
+    "value": 0.5,
+    "cumulative": 98.1,
+    "unit": "%",
+    "derived": true
+   },
+   {
+    "month": 3,
+    "label": "март",
+    "value": 3.4000000000000057,
+    "cumulative": 101.5,
+    "unit": "%",
+    "derived": true
+   },
+   {
+    "month": 4,
+    "label": "апрель",
+    "value": 0.7999999999999972,
+    "cumulative": 102.3,
+    "unit": "%",
+    "derived": true
+   },
+   {
+    "month": 5,
+    "label": "май",
+    "value": -1.8999999999999915,
+    "cumulative": 100.4,
+    "unit": "%",
+    "derived": true
+   },
+   {
+    "month": 6,
+    "label": "июнь",
+    "value": -0.4000000000000057,
+    "cumulative": 100.0,
+    "unit": "%",
+    "derived": true
+   },
+   {
+    "month": 7,
+    "label": "июль",
+    "value": -1.4000000000000057,
+    "cumulative": 98.6,
+    "unit": "%",
+    "derived": true
+   },
+   {
+    "month": 8,
+    "label": "август",
+    "value": 1.0,
+    "cumulative": 99.6,
+    "unit": "%",
+    "derived": true
+   },
+   {
+    "month": 9,
+    "label": "сентябрь",
+    "value": 0.0,
+    "cumulative": 99.6,
+    "unit": "%",
+    "derived": true
+   },
+   {
+    "month": 10,
+    "label": "октябрь",
+    "value": -1.0,
+    "cumulative": 98.6,
+    "unit": "%",
+    "derived": true
+   },
+   {
+    "month": 11,
+    "label": "ноябрь",
+    "value": 0.10000000000000853,
+    "cumulative": 98.7,
+    "unit": "%",
+    "derived": true
+   },
+   {
+    "month": 12,
+    "label": "декабрь",
+    "value": -1.4000000000000057,
+    "cumulative": 97.3,
+    "unit": "%",
+    "derived": true
+   }
+  ],
+  "explanation": "trend_down",
+  "metric": "industry_total",
+  "region": "Кызылординская область",
+  "unit": "%",
+  "metric_label": "Өнеркәсіп (барлығы)"
+ },
+ {
+  "id": "9e9d4ecea7",
+  "ts": 1792971860.6987183,
+  "horizon": 3,
+  "sufficiency": {
+   "n": 11,
+   "need": 8,
+   "sufficient": true,
+   "reason": null,
+   "gaps": 1,
+   "has_gaps": true
+  },
+  "available": true,
+  "history_months": 11,
+  "best_model": "moving_avg",
+  "metrics": {
+   "naive": {
+    "mae": 0.833333333333338,
+    "rmse": 0.9949874371066229,
+    "mase": 0.4137115839243524,
+    "mape": 100.0
+   },
+   "moving_avg": {
+    "mae": 0.788888888888893,
+    "rmse": 0.8962886439832523,
+    "mase": 0.39164696611505345,
+    "mape": 136.82539682539357
+   },
+   "holt": {
+    "mae": 8.65855588647068,
+    "rmse": 8.805742872186785,
+    "mase": 4.298573844347148,
+    "mape": 3099.5518953689184
+   },
+   "seasonal_naive": {
+    "mae": 0.833333333333338,
+    "rmse": 0.9949874371066229,
+    "mase": 0.4137115839243524,
+    "mape": 100.0
+   }
+  },
+  "forecast": [
+   {
+    "month_index": 13,
+    "label": "январь(1)",
+    "value": -0.7666666666666657
+   },
+   {
+    "month_index": 14,
+    "label": "февраль(1)",
+    "value": -0.7666666666666657
+   },
+   {
+    "month_index": 15,
+    "label": "март(1)",
+    "value": -0.7666666666666657
+   }
+  ],
+  "rmse": 0.8962886439832523,
+  "interval": 1.0,
+  "history": [
+   {
+    "month": 1,
+    "label": "январь",
+    "value": null,
+    "cumulative": 97.6,
+    "unit": "%",
+    "derived": false
+   },
+   {
+    "month": 2,
+    "label": "февраль",
+    "value": 0.5,
+    "cumulative": 98.1,
+    "unit": "%",
+    "derived": true
+   },
+   {
+    "month": 3,
+    "label": "март",
+    "value": 3.4000000000000057,
+    "cumulative": 101.5,
+    "unit": "%",
+    "derived": true
+   },
+   {
+    "month": 4,
+    "label": "апрель",
+    "value": 0.7999999999999972,
+    "cumulative": 102.3,
+    "unit": "%",
+    "derived": true
+   },
+   {
+    "month": 5,
+    "label": "май",
+    "value": -1.8999999999999915,
+    "cumulative": 100.4,
+    "unit": "%",
+    "derived": true
+   },
+   {
+    "month": 6,
+    "label": "июнь",
+    "value": -0.4000000000000057,
+    "cumulative": 100.0,
+    "unit": "%",
+    "derived": true
+   },
+   {
+    "month": 7,
+    "label": "июль",
+    "value": -1.4000000000000057,
+    "cumulative": 98.6,
+    "unit": "%",
+    "derived": true
+   },
+   {
+    "month": 8,
+    "label": "август",
+    "value": 1.0,
+    "cumulative": 99.6,
+    "unit": "%",
+    "derived": true
+   },
+   {
+    "month": 9,
+    "label": "сентябрь",
+    "value": 0.0,
+    "cumulative": 99.6,
+    "unit": "%",
+    "derived": true
+   },
+   {
+    "month": 10,
+    "label": "октябрь",
+    "value": -1.0,
+    "cumulative": 98.6,
+    "unit": "%",
+    "derived": true
+   },
+   {
+    "month": 11,
+    "label": "ноябрь",
+    "value": 0.10000000000000853,
+    "cumulative": 98.7,
+    "unit": "%",
+    "derived": true
+   },
+   {
+    "month": 12,
+    "label": "декабрь",
+    "value": -1.4000000000000057,
+    "cumulative": 97.3,
+    "unit": "%",
+    "derived": true
+   }
+  ],
+  "explanation": "trend_down",
+  "metric": "industry_total",
+  "region": "Кызылординская область",
+  "unit": "%",
+  "metric_label": "Өнеркәсіп (барлығы)"
+ },
+ {
+  "id": "915c10420d",
+  "ts": 1792971975.1322987,
+  "horizon": 3,
+  "sufficiency": {
+   "n": 11,
+   "need": 8,
+   "sufficient": true,
+   "reason": null,
+   "gaps": 1,
+   "has_gaps": true
+  },
+  "available": true,
+  "history_months": 11,
+  "best_model": "moving_avg",
+  "metrics": {
+   "naive": {
+    "mae": 0.833333333333338,
+    "rmse": 0.9949874371066229,
+    "mase": 0.4137115839243524,
+    "mape": 100.0
+   },
+   "moving_avg": {
+    "mae": 0.788888888888893,
+    "rmse": 0.8962886439832523,
+    "mase": 0.39164696611505345,
+    "mape": 136.82539682539357
+   },
+   "holt": {
+    "mae": 8.65855588647068,
+    "rmse": 8.805742872186785,
+    "mase": 4.298573844347148,
+    "mape": 3099.5518953689184
+   },
+   "seasonal_naive": {
+    "mae": 0.833333333333338,
+    "rmse": 0.9949874371066229,
+    "mase": 0.4137115839243524,
+    "mape": 100.0
+   }
+  },
+  "forecast": [
+   {
+    "month_index": 13,
+    "label": "январь(1)",
+    "value": -0.7666666666666657
+   },
+   {
+    "month_index": 14,
+    "label": "февраль(1)",
+    "value": -0.7666666666666657
+   },
+   {
+    "month_index": 15,
+    "label": "март(1)",
+    "value": -0.7666666666666657
+   }
+  ],
+  "rmse": 0.8962886439832523,
+  "interval": 1.0,
+  "history": [
+   {
+    "month": 1,
+    "label": "январь",
+    "value": null,
+    "cumulative": 97.6,
+    "unit": "%",
+    "derived": false
+   },
+   {
+    "month": 2,
+    "label": "февраль",
+    "value": 0.5,
+    "cumulative": 98.1,
+    "unit": "%",
+    "derived": true
+   },
+   {
+    "month": 3,
+    "label": "март",
+    "value": 3.4000000000000057,
+    "cumulative": 101.5,
+    "unit": "%",
+    "derived": true
+   },
+   {
+    "month": 4,
+    "label": "апрель",
+    "value": 0.7999999999999972,
+    "cumulative": 102.3,
+    "unit": "%",
+    "derived": true
+   },
+   {
+    "month": 5,
+    "label": "май",
+    "value": -1.8999999999999915,
+    "cumulative": 100.4,
+    "unit": "%",
+    "derived": true
+   },
+   {
+    "month": 6,
+    "label": "июнь",
+    "value": -0.4000000000000057,
+    "cumulative": 100.0,
+    "unit": "%",
+    "derived": true
+   },
+   {
+    "month": 7,
+    "label": "июль",
+    "value": -1.4000000000000057,
+    "cumulative": 98.6,
+    "unit": "%",
+    "derived": true
+   },
+   {
+    "month": 8,
+    "label": "август",
+    "value": 1.0,
+    "cumulative": 99.6,
+    "unit": "%",
+    "derived": true
+   },
+   {
+    "month": 9,
+    "label": "сентябрь",
+    "value": 0.0,
+    "cumulative": 99.6,
+    "unit": "%",
+    "derived": true
+   },
+   {
+    "month": 10,
+    "label": "октябрь",
+    "value": -1.0,
+    "cumulative": 98.6,
+    "unit": "%",
+    "derived": true
+   },
+   {
+    "month": 11,
+    "label": "ноябрь",
+    "value": 0.10000000000000853,
+    "cumulative": 98.7,
+    "unit": "%",
+    "derived": true
+   },
+   {
+    "month": 12,
+    "label": "декабрь",
+    "value": -1.4000000000000057,
+    "cumulative": 97.3,
+    "unit": "%",
+    "derived": true
+   }
+  ],
+  "explanation": "trend_down",
+  "metric": "industry_total",
+  "region": "Кызылординская область",
+  "unit": "%",
+  "metric_label": "Өнеркәсіп (барлығы)"
+ },
+ {
+  "id": "5b0d547e20",
+  "ts": 1792972222.1263926,
+  "horizon": 3,
+  "sufficiency": {
+   "n": 11,
+   "need": 8,
+   "sufficient": true,
+   "reason": null,
+   "gaps": 1,
+   "has_gaps": true
+  },
+  "available": true,
+  "history_months": 11,
+  "best_model": "moving_avg",
+  "metrics": {
+   "naive": {
+    "mae": 0.833333333333338,
+    "rmse": 0.9949874371066229,
+    "mase": 0.4137115839243524,
+    "mape": 100.0
+   },
+   "moving_avg": {
+    "mae": 0.788888888888893,
+    "rmse": 0.8962886439832523,
+    "mase": 0.39164696611505345,
+    "mape": 136.82539682539357
+   },
+   "holt": {
+    "mae": 8.65855588647068,
+    "rmse": 8.805742872186785,
+    "mase": 4.298573844347148,
+    "mape": 3099.5518953689184
+   },
+   "seasonal_naive": {
+    "mae": 0.833333333333338,
+    "rmse": 0.9949874371066229,
+    "mase": 0.4137115839243524,
+    "mape": 100.0
+   }
+  },
+  "forecast": [
+   {
+    "month_index": 13,
+    "label": "январь(1)",
+    "value": -0.7666666666666657
+   },
+   {
+    "month_index": 14,
+    "label": "февраль(1)",
+    "value": -0.7666666666666657
+   },
+   {
+    "month_index": 15,
+    "label": "март(1)",
+    "value": -0.7666666666666657
+   }
+  ],
+  "rmse": 0.8962886439832523,
+  "interval": 1.0,
+  "history": [
+   {
+    "month": 1,
+    "label": "январь",
+    "value": null,
+    "cumulative": 97.6,
+    "unit": "%",
+    "derived": false
+   },
+   {
+    "month": 2,
+    "label": "февраль",
+    "value": 0.5,
+    "cumulative": 98.1,
+    "unit": "%",
+    "derived": true
+   },
+   {
+    "month": 3,
+    "label": "март",
+    "value": 3.4000000000000057,
+    "cumulative": 101.5,
+    "unit": "%",
+    "derived": true
+   },
+   {
+    "month": 4,
+    "label": "апрель",
+    "value": 0.7999999999999972,
+    "cumulative": 102.3,
+    "unit": "%",
+    "derived": true
+   },
+   {
+    "month": 5,
+    "label": "май",
+    "value": -1.8999999999999915,
+    "cumulative": 100.4,
+    "unit": "%",
+    "derived": true
+   },
+   {
+    "month": 6,
+    "label": "июнь",
+    "value": -0.4000000000000057,
+    "cumulative": 100.0,
+    "unit": "%",
+    "derived": true
+   },
+   {
+    "month": 7,
+    "label": "июль",
+    "value": -1.4000000000000057,
+    "cumulative": 98.6,
+    "unit": "%",
+    "derived": true
+   },
+   {
+    "month": 8,
+    "label": "август",
+    "value": 1.0,
+    "cumulative": 99.6,
+    "unit": "%",
+    "derived": true
+   },
+   {
+    "month": 9,
+    "label": "сентябрь",
+    "value": 0.0,
+    "cumulative": 99.6,
+    "unit": "%",
+    "derived": true
+   },
+   {
+    "month": 10,
+    "label": "октябрь",
+    "value": -1.0,
+    "cumulative": 98.6,
+    "unit": "%",
+    "derived": true
+   },
+   {
+    "month": 11,
+    "label": "ноябрь",
+    "value": 0.10000000000000853,
+    "cumulative": 98.7,
+    "unit": "%",
+    "derived": true
+   },
+   {
+    "month": 12,
+    "label": "декабрь",
+    "value": -1.4000000000000057,
+    "cumulative": 97.3,
+    "unit": "%",
+    "derived": true
+   }
+  ],
+  "explanation": "trend_down",
+  "metric": "industry_total",
+  "region": "Кызылординская область",
+  "unit": "%",
+  "metric_label": "Өнеркәсіп (барлығы)"
+ },
+ {
+  "id": "3b34d8f564",
+  "ts": 1792972291.1536324,
+  "horizon": 3,
+  "sufficiency": {
+   "n": 11,
+   "need": 8,
+   "sufficient": true,
+   "reason": null,
+   "gaps": 1,
+   "has_gaps": true
+  },
+  "available": true,
+  "history_months": 11,
+  "best_model": "moving_avg",
+  "metrics": {
+   "naive": {
+    "mae": 0.833333333333338,
+    "rmse": 0.9949874371066229,
+    "mase": 0.4137115839243524,
+    "mape": 100.0
+   },
+   "moving_avg": {
+    "mae": 0.788888888888893,
+    "rmse": 0.8962886439832523,
+    "mase": 0.39164696611505345,
+    "mape": 136.82539682539357
+   },
+   "holt": {
+    "mae": 8.65855588647068,
+    "rmse": 8.805742872186785,
+    "mase": 4.298573844347148,
+    "mape": 3099.5518953689184
+   },
+   "seasonal_naive": {
+    "mae": 0.833333333333338,
+    "rmse": 0.9949874371066229,
+    "mase": 0.4137115839243524,
+    "mape": 100.0
+   }
+  },
+  "forecast": [
+   {
+    "month_index": 13,
+    "label": "январь(1)",
+    "value": -0.7666666666666657
+   },
+   {
+    "month_index": 14,
+    "label": "февраль(1)",
+    "value": -0.7666666666666657
+   },
+   {
+    "month_index": 15,
+    "label": "март(1)",
+    "value": -0.7666666666666657
+   }
+  ],
+  "rmse": 0.8962886439832523,
+  "interval": 1.0,
+  "history": [
+   {
+    "month": 1,
+    "label": "январь",
+    "value": null,
+    "cumulative": 97.6,
+    "unit": "%",
+    "derived": false
+   },
+   {
+    "month": 2,
+    "label": "февраль",
+    "value": 0.5,
+    "cumulative": 98.1,
+    "unit": "%",
+    "derived": true
+   },
+   {
+    "month": 3,
+    "label": "март",
+    "value": 3.4000000000000057,
+    "cumulative": 101.5,
+    "unit": "%",
+    "derived": true
+   },
+   {
+    "month": 4,
+    "label": "апрель",
+    "value": 0.7999999999999972,
+    "cumulative": 102.3,
+    "unit": "%",
+    "derived": true
+   },
+   {
+    "month": 5,
+    "label": "май",
+    "value": -1.8999999999999915,
+    "cumulative": 100.4,
+    "unit": "%",
+    "derived": true
+   },
+   {
+    "month": 6,
+    "label": "июнь",
+    "value": -0.4000000000000057,
+    "cumulative": 100.0,
+    "unit": "%",
+    "derived": true
+   },
+   {
+    "month": 7,
+    "label": "июль",
+    "value": -1.4000000000000057,
+    "cumulative": 98.6,
+    "unit": "%",
+    "derived": true
+   },
+   {
+    "month": 8,
+    "label": "август",
+    "value": 1.0,
+    "cumulative": 99.6,
+    "unit": "%",
+    "derived": true
+   },
+   {
+    "month": 9,
+    "label": "сентябрь",
+    "value": 0.0,
+    "cumulative": 99.6,
+    "unit": "%",
+    "derived": true
+   },
+   {
+    "month": 10,
+    "label": "октябрь",
+    "value": -1.0,
+    "cumulative": 98.6,
+    "unit": "%",
+    "derived": true
+   },
+   {
+    "month": 11,
+    "label": "ноябрь",
+    "value": 0.10000000000000853,
+    "cumulative": 98.7,
+    "unit": "%",
+    "derived": true
+   },
+   {
+    "month": 12,
+    "label": "декабрь",
+    "value": -1.4000000000000057,
+    "cumulative": 97.3,
+    "unit": "%",
+    "derived": true
+   }
+  ],
+  "explanation": "trend_down",
+  "metric": "industry_total",
+  "region": "Кызылординская область",
+  "unit": "%",
+  "metric_label": "Өнеркәсіп (барлығы)"
+ },
+ {
+  "id": "7cd2ac1026",
+  "ts": 1792972560.5954602,
+  "horizon": 3,
+  "sufficiency": {
+   "n": 11,
+   "need": 8,
+   "sufficient": true,
+   "reason": null,
+   "gaps": 1,
+   "has_gaps": true
+  },
+  "available": true,
+  "history_months": 11,
+  "best_model": "moving_avg",
+  "metrics": {
+   "naive": {
+    "mae": 0.833333333333338,
+    "rmse": 0.9949874371066229,
+    "mase": 0.4137115839243524,
+    "mape": 100.0
+   },
+   "moving_avg": {
+    "mae": 0.788888888888893,
+    "rmse": 0.8962886439832523,
+    "mase": 0.39164696611505345,
+    "mape": 136.82539682539357
+   },
+   "holt": {
+    "mae": 8.65855588647068,
+    "rmse": 8.805742872186785,
+    "mase": 4.298573844347148,
+    "mape": 3099.5518953689184
+   },
+   "seasonal_naive": {
+    "mae": 0.833333333333338,
+    "rmse": 0.9949874371066229,
+    "mase": 0.4137115839243524,
+    "mape": 100.0
+   }
+  },
+  "forecast": [
+   {
+    "month_index": 13,
+    "label": "январь(1)",
+    "value": -0.7666666666666657
+   },
+   {
+    "month_index": 14,
+    "label": "февраль(1)",
+    "value": -0.7666666666666657
+   },
+   {
+    "month_index": 15,
+    "label": "март(1)",
+    "value": -0.7666666666666657
+   }
+  ],
+  "rmse": 0.8962886439832523,
+  "interval": 1.0,
+  "history": [
+   {
+    "month": 1,
+    "label": "январь",
+    "value": null,
+    "cumulative": 97.6,
+    "unit": "%",
+    "derived": false
+   },
+   {
+    "month": 2,
+    "label": "февраль",
+    "value": 0.5,
+    "cumulative": 98.1,
+    "unit": "%",
+    "derived": true
+   },
+   {
+    "month": 3,
+    "label": "март",
+    "value": 3.4000000000000057,
+    "cumulative": 101.5,
+    "unit": "%",
+    "derived": true
+   },
+   {
+    "month": 4,
+    "label": "апрель",
+    "value": 0.7999999999999972,
+    "cumulative": 102.3,
+    "unit": "%",
+    "derived": true
+   },
+   {
+    "month": 5,
+    "label": "май",
+    "value": -1.8999999999999915,
+    "cumulative": 100.4,
+    "unit": "%",
+    "derived": true
+   },
+   {
+    "month": 6,
+    "label": "июнь",
+    "value": -0.4000000000000057,
+    "cumulative": 100.0,
+    "unit": "%",
+    "derived": true
+   },
+   {
+    "month": 7,
+    "label": "июль",
+    "value": -1.4000000000000057,
+    "cumulative": 98.6,
+    "unit": "%",
+    "derived": true
+   },
+   {
+    "month": 8,
+    "label": "август",
+    "value": 1.0,
+    "cumulative": 99.6,
+    "unit": "%",
+    "derived": true
+   },
+   {
+    "month": 9,
+    "label": "сентябрь",
+    "value": 0.0,
+    "cumulative": 99.6,
+    "unit": "%",
+    "derived": true
+   },
+   {
+    "month": 10,
+    "label": "октябрь",
+    "value": -1.0,
+    "cumulative": 98.6,
+    "unit": "%",
+    "derived": true
+   },
+   {
+    "month": 11,
+    "label": "ноябрь",
+    "value": 0.10000000000000853,
+    "cumulative": 98.7,
+    "unit": "%",
+    "derived": true
+   },
+   {
+    "month": 12,
+    "label": "декабрь",
+    "value": -1.4000000000000057,
+    "cumulative": 97.3,
+    "unit": "%",
+    "derived": true
+   }
+  ],
+  "explanation": "trend_down",
+  "metric": "industry_total",
+  "region": "Кызылординская область",
+  "unit": "%",
+  "metric_label": "Өнеркәсіп (барлығы)"
+ },
+ {
+  "id": "a33edc3458",
+  "ts": 1792972827.3261776,
+  "horizon": 3,
+  "sufficiency": {
+   "n": 11,
+   "need": 8,
+   "sufficient": true,
+   "reason": null,
+   "gaps": 1,
+   "has_gaps": true
+  },
+  "available": true,
+  "history_months": 11,
+  "best_model": "moving_avg",
+  "metrics": {
+   "naive": {
+    "mae": 0.833333333333338,
+    "rmse": 0.9949874371066229,
+    "mase": 0.4137115839243524,
+    "mape": 100.0
+   },
+   "moving_avg": {
+    "mae": 0.788888888888893,
+    "rmse": 0.8962886439832523,
+    "mase": 0.39164696611505345,
+    "mape": 136.82539682539357
+   },
+   "holt": {
+    "mae": 8.65855588647068,
+    "rmse": 8.805742872186785,
+    "mase": 4.298573844347148,
+    "mape": 3099.5518953689184
+   },
+   "seasonal_naive": {
+    "mae": 0.833333333333338,
+    "rmse": 0.9949874371066229,
+    "mase": 0.4137115839243524,
+    "mape": 100.0
+   }
+  },
+  "forecast": [
+   {
+    "month_index": 13,
+    "label": "январь(1)",
+    "value": -0.7666666666666657
+   },
+   {
+    "month_index": 14,
+    "label": "февраль(1)",
+    "value": -0.7666666666666657
+   },
+   {
+    "month_index": 15,
+    "label": "март(1)",
+    "value": -0.7666666666666657
+   }
+  ],
+  "rmse": 0.8962886439832523,
+  "interval": 1.0,
+  "history": [
+   {
+    "month": 1,
+    "label": "январь",
+    "value": null,
+    "cumulative": 97.6,
+    "unit": "%",
+    "derived": false
+   },
+   {
+    "month": 2,
+    "label": "февраль",
+    "value": 0.5,
+    "cumulative": 98.1,
+    "unit": "%",
+    "derived": true
+   },
+   {
+    "month": 3,
+    "label": "март",
+    "value": 3.4000000000000057,
+    "cumulative": 101.5,
+    "unit": "%",
+    "derived": true
+   },
+   {
+    "month": 4,
+    "label": "апрель",
+    "value": 0.7999999999999972,
+    "cumulative": 102.3,
+    "unit": "%",
+    "derived": true
+   },
+   {
+    "month": 5,
+    "label": "май",
+    "value": -1.8999999999999915,
+    "cumulative": 100.4,
+    "unit": "%",
+    "derived": true
+   },
+   {
+    "month": 6,
+    "label": "июнь",
+    "value": -0.4000000000000057,
+    "cumulative": 100.0,
+    "unit": "%",
+    "derived": true
+   },
+   {
+    "month": 7,
+    "label": "июль",
+    "value": -1.4000000000000057,
+    "cumulative": 98.6,
+    "unit": "%",
+    "derived": true
+   },
+   {
+    "month": 8,
+    "label": "август",
+    "value": 1.0,
+    "cumulative": 99.6,
+    "unit": "%",
+    "derived": true
+   },
+   {
+    "month": 9,
+    "label": "сентябрь",
+    "value": 0.0,
+    "cumulative": 99.6,
+    "unit": "%",
+    "derived": true
+   },
+   {
+    "month": 10,
+    "label": "октябрь",
+    "value": -1.0,
+    "cumulative": 98.6,
+    "unit": "%",
+    "derived": true
+   },
+   {
+    "month": 11,
+    "label": "ноябрь",
+    "value": 0.10000000000000853,
+    "cumulative": 98.7,
+    "unit": "%",
+    "derived": true
+   },
+   {
+    "month": 12,
+    "label": "декабрь",
+    "value": -1.4000000000000057,
+    "cumulative": 97.3,
+    "unit": "%",
+    "derived": true
+   }
+  ],
+  "explanation": "trend_down",
+  "metric": "industry_total",
+  "region": "Кызылординская область",
+  "unit": "%",
+  "metric_label": "Өнеркәсіп (барлығы)"
+ },
+ {
+  "id": "e7a4ce3d89",
+  "ts": 1792972851.31721,
+  "horizon": 3,
+  "sufficiency": {
+   "n": 11,
+   "need": 8,
+   "sufficient": true,
+   "reason": null,
+   "gaps": 1,
+   "has_gaps": true
+  },
+  "available": true,
+  "history_months": 11,
+  "best_model": "moving_avg",
+  "metrics": {
+   "naive": {
+    "mae": 0.833333333333338,
+    "rmse": 0.9949874371066229,
+    "mase": 0.4137115839243524,
+    "mape": 100.0
+   },
+   "moving_avg": {
+    "mae": 0.788888888888893,
+    "rmse": 0.8962886439832523,
+    "mase": 0.39164696611505345,
+    "mape": 136.82539682539357
+   },
+   "holt": {
+    "mae": 8.65855588647068,
+    "rmse": 8.805742872186785,
+    "mase": 4.298573844347148,
+    "mape": 3099.5518953689184
+   },
+   "seasonal_naive": {
+    "mae": 0.833333333333338,
+    "rmse": 0.9949874371066229,
+    "mase": 0.4137115839243524,
+    "mape": 100.0
+   }
+  },
+  "forecast": [
+   {
+    "month_index": 13,
+    "label": "январь(1)",
+    "value": -0.7666666666666657
+   },
+   {
+    "month_index": 14,
+    "label": "февраль(1)",
+    "value": -0.7666666666666657
+   },
+   {
+    "month_index": 15,
+    "label": "март(1)",
+    "value": -0.7666666666666657
+   }
+  ],
+  "rmse": 0.8962886439832523,
+  "interval": 1.0,
+  "history": [
+   {
+    "month": 1,
+    "label": "январь",
+    "value": null,
+    "cumulative": 97.6,
+    "unit": "%",
+    "derived": false
+   },
+   {
+    "month": 2,
+    "label": "февраль",
+    "value": 0.5,
+    "cumulative": 98.1,
+    "unit": "%",
+    "derived": true
+   },
+   {
+    "month": 3,
+    "label": "март",
+    "value": 3.4000000000000057,
+    "cumulative": 101.5,
+    "unit": "%",
+    "derived": true
+   },
+   {
+    "month": 4,
+    "label": "апрель",
+    "value": 0.7999999999999972,
+    "cumulative": 102.3,
+    "unit": "%",
+    "derived": true
+   },
+   {
+    "month": 5,
+    "label": "май",
+    "value": -1.8999999999999915,
+    "cumulative": 100.4,
+    "unit": "%",
+    "derived": true
+   },
+   {
+    "month": 6,
+    "label": "июнь",
+    "value": -0.4000000000000057,
+    "cumulative": 100.0,
+    "unit": "%",
+    "derived": true
+   },
+   {
+    "month": 7,
+    "label": "июль",
+    "value": -1.4000000000000057,
+    "cumulative": 98.6,
+    "unit": "%",
+    "derived": true
+   },
+   {
+    "month": 8,
+    "label": "август",
+    "value": 1.0,
+    "cumulative": 99.6,
+    "unit": "%",
+    "derived": true
+   },
+   {
+    "month": 9,
+    "label": "сентябрь",
+    "value": 0.0,
+    "cumulative": 99.6,
+    "unit": "%",
+    "derived": true
+   },
+   {
+    "month": 10,
+    "label": "октябрь",
+    "value": -1.0,
+    "cumulative": 98.6,
+    "unit": "%",
+    "derived": true
+   },
+   {
+    "month": 11,
+    "label": "ноябрь",
+    "value": 0.10000000000000853,
+    "cumulative": 98.7,
+    "unit": "%",
+    "derived": true
+   },
+   {
+    "month": 12,
+    "label": "декабрь",
+    "value": -1.4000000000000057,
+    "cumulative": 97.3,
+    "unit": "%",
+    "derived": true
+   }
+  ],
+  "explanation": "trend_down",
+  "metric": "industry_total",
+  "region": "Кызылординская область",
+  "unit": "%",
+  "metric_label": "Өнеркәсіп (барлығы)"
+ },
+ {
+  "id": "ab33a8a858",
+  "ts": 1792973049.6701834,
+  "horizon": 6,
+  "sufficiency": {
+   "n": 11,
+   "need": 12,
+   "sufficient": false,
+   "reason": "insufficient_for_horizon",
+   "gaps": 1,
+   "has_gaps": true
+  },
+  "available": false,
+  "history_months": 11,
+  "error": "insufficient_for_horizon",
+  "explanation": "insufficient_data",
+  "metric": "industry_total",
+  "region": "Кызылординская область",
+  "unit": "%",
+  "metric_label": "Өнеркәсіп (барлығы)"
+ },
+ {
+  "id": "c8b0d355c7",
+  "ts": 1792973676.111509,
+  "horizon": 3,
+  "sufficiency": {
+   "n": 11,
+   "need": 8,
+   "sufficient": true,
+   "reason": null,
+   "gaps": 1,
+   "has_gaps": true
+  },
+  "available": true,
+  "history_months": 11,
+  "best_model": "moving_avg",
+  "metrics": {
+   "naive": {
+    "mae": 0.833333333333338,
+    "rmse": 0.9949874371066229,
+    "mase": 0.4137115839243524,
+    "mape": 100.0
+   },
+   "moving_avg": {
+    "mae": 0.788888888888893,
+    "rmse": 0.8962886439832523,
+    "mase": 0.39164696611505345,
+    "mape": 136.82539682539357
+   },
+   "holt": {
+    "mae": 8.65855588647068,
+    "rmse": 8.805742872186785,
+    "mase": 4.298573844347148,
+    "mape": 3099.5518953689184
+   },
+   "seasonal_naive": {
+    "mae": 0.833333333333338,
+    "rmse": 0.9949874371066229,
+    "mase": 0.4137115839243524,
+    "mape": 100.0
+   }
+  },
+  "forecast": [
+   {
+    "month_index": 13,
+    "label": "январь(1)",
+    "value": -0.7666666666666657
+   },
+   {
+    "month_index": 14,
+    "label": "февраль(1)",
+    "value": -0.7666666666666657
+   },
+   {
+    "month_index": 15,
+    "label": "март(1)",
+    "value": -0.7666666666666657
+   }
+  ],
+  "rmse": 0.8962886439832523,
+  "interval": 1.0,
+  "history": [
+   {
+    "month": 1,
+    "label": "январь",
+    "value": null,
+    "cumulative": 97.6,
+    "unit": "%",
+    "derived": false
+   },
+   {
+    "month": 2,
+    "label": "февраль",
+    "value": 0.5,
+    "cumulative": 98.1,
+    "unit": "%",
+    "derived": true
+   },
+   {
+    "month": 3,
+    "label": "март",
+    "value": 3.4000000000000057,
+    "cumulative": 101.5,
+    "unit": "%",
+    "derived": true
+   },
+   {
+    "month": 4,
+    "label": "апрель",
+    "value": 0.7999999999999972,
+    "cumulative": 102.3,
+    "unit": "%",
+    "derived": true
+   },
+   {
+    "month": 5,
+    "label": "май",
+    "value": -1.8999999999999915,
+    "cumulative": 100.4,
+    "unit": "%",
+    "derived": true
+   },
+   {
+    "month": 6,
+    "label": "июнь",
+    "value": -0.4000000000000057,
+    "cumulative": 100.0,
+    "unit": "%",
+    "derived": true
+   },
+   {
+    "month": 7,
+    "label": "июль",
+    "value": -1.4000000000000057,
+    "cumulative": 98.6,
+    "unit": "%",
+    "derived": true
+   },
+   {
+    "month": 8,
+    "label": "август",
+    "value": 1.0,
+    "cumulative": 99.6,
+    "unit": "%",
+    "derived": true
+   },
+   {
+    "month": 9,
+    "label": "сентябрь",
+    "value": 0.0,
+    "cumulative": 99.6,
+    "unit": "%",
+    "derived": true
+   },
+   {
+    "month": 10,
+    "label": "октябрь",
+    "value": -1.0,
+    "cumulative": 98.6,
+    "unit": "%",
+    "derived": true
+   },
+   {
+    "month": 11,
+    "label": "ноябрь",
+    "value": 0.10000000000000853,
+    "cumulative": 98.7,
+    "unit": "%",
+    "derived": true
+   },
+   {
+    "month": 12,
+    "label": "декабрь",
+    "value": -1.4000000000000057,
+    "cumulative": 97.3,
+    "unit": "%",
+    "derived": true
+   }
+  ],
+  "explanation": "trend_down",
+  "metric": "industry_total",
+  "region": "Кызылординская область",
+  "unit": "%",
+  "metric_label": "Өнеркәсіп (барлығы)"
+ },
+ {
+  "id": "4d397126c8",
+  "ts": 1792973742.7094913,
+  "horizon": 3,
+  "sufficiency": {
+   "n": 11,
+   "need": 8,
+   "sufficient": true,
+   "reason": null,
+   "gaps": 1,
+   "has_gaps": true
+  },
+  "available": true,
+  "history_months": 11,
+  "best_model": "moving_avg",
+  "metrics": {
+   "naive": {
+    "mae": 0.833333333333338,
+    "rmse": 0.9949874371066229,
+    "mase": 0.4137115839243524,
+    "mape": 100.0
+   },
+   "moving_avg": {
+    "mae": 0.788888888888893,
+    "rmse": 0.8962886439832523,
+    "mase": 0.39164696611505345,
+    "mape": 136.82539682539357
+   },
+   "holt": {
+    "mae": 8.65855588647068,
+    "rmse": 8.805742872186785,
+    "mase": 4.298573844347148,
+    "mape": 3099.5518953689184
+   },
+   "seasonal_naive": {
+    "mae": 0.833333333333338,
+    "rmse": 0.9949874371066229,
+    "mase": 0.4137115839243524,
+    "mape": 100.0
+   }
+  },
+  "forecast": [
+   {
+    "month_index": 13,
+    "label": "январь(1)",
+    "value": -0.7666666666666657
+   },
+   {
+    "month_index": 14,
+    "label": "февраль(1)",
+    "value": -0.7666666666666657
+   },
+   {
+    "month_index": 15,
+    "label": "март(1)",
+    "value": -0.7666666666666657
+   }
+  ],
+  "rmse": 0.8962886439832523,
+  "interval": 1.0,
+  "history": [
+   {
+    "month": 1,
+    "label": "январь",
+    "value": null,
+    "cumulative": 97.6,
+    "unit": "%",
+    "derived": false
+   },
+   {
+    "month": 2,
+    "label": "февраль",
+    "value": 0.5,
+    "cumulative": 98.1,
+    "unit": "%",
+    "derived": true
+   },
+   {
+    "month": 3,
+    "label": "март",
+    "value": 3.4000000000000057,
+    "cumulative": 101.5,
+    "unit": "%",
+    "derived": true
+   },
+   {
+    "month": 4,
+    "label": "апрель",
+    "value": 0.7999999999999972,
+    "cumulative": 102.3,
+    "unit": "%",
+    "derived": true
+   },
+   {
+    "month": 5,
+    "label": "май",
+    "value": -1.8999999999999915,
+    "cumulative": 100.4,
+    "unit": "%",
+    "derived": true
+   },
+   {
+    "month": 6,
+    "label": "июнь",
+    "value": -0.4000000000000057,
+    "cumulative": 100.0,
+    "unit": "%",
+    "derived": true
+   },
+   {
+    "month": 7,
+    "label": "июль",
+    "value": -1.4000000000000057,
+    "cumulative": 98.6,
+    "unit": "%",
+    "derived": true
+   },
+   {
+    "month": 8,
+    "label": "август",
+    "value": 1.0,
+    "cumulative": 99.6,
+    "unit": "%",
+    "derived": true
+   },
+   {
+    "month": 9,
+    "label": "сентябрь",
+    "value": 0.0,
+    "cumulative": 99.6,
+    "unit": "%",
+    "derived": true
+   },
+   {
+    "month": 10,
+    "label": "октябрь",
+    "value": -1.0,
+    "cumulative": 98.6,
+    "unit": "%",
+    "derived": true
+   },
+   {
+    "month": 11,
+    "label": "ноябрь",
+    "value": 0.10000000000000853,
+    "cumulative": 98.7,
+    "unit": "%",
+    "derived": true
+   },
+   {
+    "month": 12,
+    "label": "декабрь",
+    "value": -1.4000000000000057,
+    "cumulative": 97.3,
+    "unit": "%",
+    "derived": true
+   }
+  ],
+  "explanation": "trend_down",
+  "metric": "industry_total",
+  "region": "Кызылординская область",
+  "unit": "%",
+  "metric_label": "Өнеркәсіп (барлығы)"
+ },
+ {
+  "id": "0ca59a1d55",
+  "ts": 1792973795.0199432,
+  "horizon": 3,
+  "sufficiency": {
+   "n": 11,
+   "need": 8,
+   "sufficient": true,
+   "reason": null,
+   "gaps": 1,
+   "has_gaps": true
+  },
+  "available": true,
+  "history_months": 11,
+  "best_model": "moving_avg",
+  "metrics": {
+   "naive": {
+    "mae": 0.833333333333338,
+    "rmse": 0.9949874371066229,
+    "mase": 0.4137115839243524,
+    "mape": 100.0
+   },
+   "moving_avg": {
+    "mae": 0.788888888888893,
+    "rmse": 0.8962886439832523,
+    "mase": 0.39164696611505345,
+    "mape": 136.82539682539357
+   },
+   "holt": {
+    "mae": 8.65855588647068,
+    "rmse": 8.805742872186785,
+    "mase": 4.298573844347148,
+    "mape": 3099.5518953689184
+   },
+   "seasonal_naive": {
+    "mae": 0.833333333333338,
+    "rmse": 0.9949874371066229,
+    "mase": 0.4137115839243524,
+    "mape": 100.0
+   }
+  },
+  "forecast": [
+   {
+    "month_index": 13,
+    "label": "январь(1)",
+    "value": -0.7666666666666657
+   },
+   {
+    "month_index": 14,
+    "label": "февраль(1)",
+    "value": -0.7666666666666657
+   },
+   {
+    "month_index": 15,
+    "label": "март(1)",
+    "value": -0.7666666666666657
+   }
+  ],
+  "rmse": 0.8962886439832523,
+  "interval": 1.0,
+  "history": [
+   {
+    "month": 1,
+    "label": "январь",
+    "value": null,
+    "cumulative": 97.6,
+    "unit": "%",
+    "derived": false
+   },
+   {
+    "month": 2,
+    "label": "февраль",
+    "value": 0.5,
+    "cumulative": 98.1,
+    "unit": "%",
+    "derived": true
+   },
+   {
+    "month": 3,
+    "label": "март",
+    "value": 3.4000000000000057,
+    "cumulative": 101.5,
+    "unit": "%",
+    "derived": true
+   },
+   {
+    "month": 4,
+    "label": "апрель",
+    "value": 0.7999999999999972,
+    "cumulative": 102.3,
+    "unit": "%",
+    "derived": true
+   },
+   {
+    "month": 5,
+    "label": "май",
+    "value": -1.8999999999999915,
+    "cumulative": 100.4,
+    "unit": "%",
+    "derived": true
+   },
+   {
+    "month": 6,
+    "label": "июнь",
+    "value": -0.4000000000000057,
+    "cumulative": 100.0,
+    "unit": "%",
+    "derived": true
+   },
+   {
+    "month": 7,
+    "label": "июль",
+    "value": -1.4000000000000057,
+    "cumulative": 98.6,
+    "unit": "%",
+    "derived": true
+   },
+   {
+    "month": 8,
+    "label": "август",
+    "value": 1.0,
+    "cumulative": 99.6,
+    "unit": "%",
+    "derived": true
+   },
+   {
+    "month": 9,
+    "label": "сентябрь",
+    "value": 0.0,
+    "cumulative": 99.6,
+    "unit": "%",
+    "derived": true
+   },
+   {
+    "month": 10,
+    "label": "октябрь",
+    "value": -1.0,
+    "cumulative": 98.6,
+    "unit": "%",
+    "derived": true
+   },
+   {
+    "month": 11,
+    "label": "ноябрь",
+    "value": 0.10000000000000853,
+    "cumulative": 98.7,
+    "unit": "%",
+    "derived": true
+   },
+   {
+    "month": 12,
+    "label": "декабрь",
+    "value": -1.4000000000000057,
+    "cumulative": 97.3,
+    "unit": "%",
+    "derived": true
+   }
+  ],
+  "explanation": "trend_down",
+  "metric": "industry_total",
+  "region": "Кызылординская область",
+  "unit": "%",
+  "metric_label": "Өнеркәсіп (барлығы)"
+ }
+]

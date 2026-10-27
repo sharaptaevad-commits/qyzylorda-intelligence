@@ -1,0 +1,12 @@
+{
+ "industry_total|Сырдарьинский|9": {
+  "status": "reviewed_ok",
+  "note": "test",
+  "by": "admin",
+  "role": "admin",
+  "ts": 1792997341.529846,
+  "metric": "industry_total",
+  "region": "Сырдарьинский",
+  "period_month": 9
+ }
+}

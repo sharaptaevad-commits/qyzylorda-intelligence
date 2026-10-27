@@ -1,0 +1,29 @@
+[
+ {
+  "id": "u-admin",
+  "username": "admin",
+  "password_hash": "2c7ad0231d4005d4bddc15c041a8c3a1e44decbfd414349697399cb83515b4b6",
+  "role": "admin",
+  "name": "Administrator",
+  "lang": "ru",
+  "active": true
+ },
+ {
+  "id": "u-analyst",
+  "username": "analyst",
+  "password_hash": "b6d96c38916e40ddc289886b01dccdfd7c4dd8235c1d16b96b6113a96f48f6e9",
+  "role": "analyst",
+  "name": "Analyst",
+  "lang": "ru",
+  "active": true
+ },
+ {
+  "id": "u-viewer",
+  "username": "viewer",
+  "password_hash": "91da0839918f0f8b0f152c273f6b9cc77d15bdf8767a7edb895b1fc3e28acfe9",
+  "role": "viewer",
+  "name": "Viewer",
+  "lang": "ru",
+  "active": true
+ }
+]

@@ -1,0 +1,504 @@
+[
+ {
+  "ts": 1792965438.0884676,
+  "action": "upload",
+  "doc_id": "bc087ab1eb",
+  "detail": "Индексы промышленного производства по ОКЭД в разрезе районов(12.2025г.).xlsx"
+ },
+ {
+  "ts": 1792965438.1344495,
+  "action": "analyze",
+  "doc_id": "bc087ab1eb",
+  "detail": "576 records, status=done"
+ },
+ {
+  "ts": 1792965438.3983474,
+  "action": "upload_rejected",
+  "doc_id": "22a78f410e",
+  "detail": "bad_format"
+ },
+ {
+  "ts": 1792965858.2088013,
+  "action": "upload",
+  "doc_id": "a2acf5be2d",
+  "detail": "Индексы промышленного производства по ОКЭД в разрезе районов(12.2025г.).xlsx"
+ },
+ {
+  "ts": 1792965858.2794085,
+  "action": "analyze",
+  "doc_id": "a2acf5be2d",
+  "detail": "576 records, status=done"
+ },
+ {
+  "ts": 1792965866.3440878,
+  "action": "upload",
+  "doc_id": "3bed76f4be",
+  "detail": "Индексы промышленного производства по ОКЭД в разрезе районов(12.2025г.).xlsx"
+ },
+ {
+  "ts": 1792965866.4131138,
+  "action": "analyze",
+  "doc_id": "3bed76f4be",
+  "detail": "576 records, status=done"
+ },
+ {
+  "ts": 1792965866.5300317,
+  "action": "import",
+  "doc_id": "3bed76f4be",
+  "detail": "added=0 skipped=0"
+ },
+ {
+  "ts": 1792966334.191826,
+  "action": "upload",
+  "doc_id": "28dda29721",
+  "detail": "Индексы промышленного производства по ОКЭД в разрезе районов(12.2025г.) (1).xlsx"
+ },
+ {
+  "ts": 1792966334.4683702,
+  "action": "analyze",
+  "doc_id": "28dda29721",
+  "detail": "576 records, status=done"
+ },
+ {
+  "ts": 1792966339.8676388,
+  "action": "analyze",
+  "doc_id": "28dda29721",
+  "detail": "576 records, status=done"
+ },
+ {
+  "ts": 1792966340.6996799,
+  "action": "analyze",
+  "doc_id": "28dda29721",
+  "detail": "576 records, status=done"
+ },
+ {
+  "ts": 1792966341.3147962,
+  "action": "analyze",
+  "doc_id": "28dda29721",
+  "detail": "576 records, status=done"
+ },
+ {
+  "ts": 1792966341.438592,
+  "action": "analyze",
+  "doc_id": "28dda29721",
+  "detail": "576 records, status=done"
+ },
+ {
+  "ts": 1792966341.5773432,
+  "action": "analyze",
+  "doc_id": "28dda29721",
+  "detail": "576 records, status=done"
+ },
+ {
+  "ts": 1792966341.721021,
+  "action": "analyze",
+  "doc_id": "28dda29721",
+  "detail": "576 records, status=done"
+ },
+ {
+  "ts": 1792966341.87144,
+  "action": "analyze",
+  "doc_id": "28dda29721",
+  "detail": "576 records, status=done"
+ },
+ {
+  "ts": 1792966342.055627,
+  "action": "analyze",
+  "doc_id": "28dda29721",
+  "detail": "576 records, status=done"
+ },
+ {
+  "ts": 1792966460.8579702,
+  "action": "login",
+  "doc_id": null,
+  "detail": "admin",
+  "user": "admin"
+ },
+ {
+  "ts": 1792966468.1893106,
+  "action": "login",
+  "doc_id": null,
+  "detail": "admin",
+  "user": "admin"
+ },
+ {
+  "ts": 1792966468.202418,
+  "action": "login",
+  "doc_id": null,
+  "detail": "viewer",
+  "user": "viewer"
+ },
+ {
+  "ts": 1792967035.6654,
+  "action": "login",
+  "doc_id": null,
+  "detail": "admin",
+  "user": "admin"
+ },
+ {
+  "ts": 1792967104.1872156,
+  "action": "login",
+  "doc_id": null,
+  "detail": "admin",
+  "user": "admin"
+ },
+ {
+  "ts": 1792967104.2036872,
+  "action": "login",
+  "doc_id": null,
+  "detail": "admin",
+  "user": "admin"
+ },
+ {
+  "ts": 1792967170.4642904,
+  "action": "login",
+  "doc_id": null,
+  "detail": "admin",
+  "user": "admin"
+ },
+ {
+  "ts": 1792967172.5555527,
+  "action": "login",
+  "doc_id": null,
+  "detail": "admin",
+  "user": "admin"
+ },
+ {
+  "ts": 1792967173.365793,
+  "action": "login",
+  "doc_id": null,
+  "detail": "admin",
+  "user": "admin"
+ },
+ {
+  "ts": 1792967173.5794246,
+  "action": "login",
+  "doc_id": null,
+  "detail": "admin",
+  "user": "admin"
+ },
+ {
+  "ts": 1792967173.9696996,
+  "action": "login",
+  "doc_id": null,
+  "detail": "admin",
+  "user": "admin"
+ },
+ {
+  "ts": 1792967176.9275608,
+  "action": "login",
+  "doc_id": null,
+  "detail": "admin",
+  "user": "admin"
+ },
+ {
+  "ts": 1792967177.8181727,
+  "action": "login",
+  "doc_id": null,
+  "detail": "admin",
+  "user": "admin"
+ },
+ {
+  "ts": 1792968511.3831131,
+  "action": "upload",
+  "doc_id": "f7e2002811",
+  "detail": "Индексы промышленного производства по ОКЭД в разрезе районов(12.24г.).xlsx",
+  "user": "admin"
+ },
+ {
+  "ts": 1792968511.4812276,
+  "action": "analyze",
+  "doc_id": "f7e2002811",
+  "detail": "576 records, status=review",
+  "user": "admin"
+ },
+ {
+  "ts": 1792973547.61458,
+  "action": "login",
+  "doc_id": null,
+  "detail": "admin",
+  "user": "admin"
+ },
+ {
+  "ts": 1792973555.0643466,
+  "action": "login",
+  "doc_id": null,
+  "detail": "admin",
+  "user": "admin"
+ },
+ {
+  "ts": 1792973584.7380574,
+  "action": "login",
+  "doc_id": null,
+  "detail": "admin",
+  "user": "admin"
+ },
+ {
+  "ts": 1792973585.808448,
+  "action": "settings_update",
+  "doc_id": null,
+  "detail": {
+   "report_intake_enabled": true
+  },
+  "user": "admin"
+ },
+ {
+  "ts": 1792973594.6971576,
+  "action": "settings_update",
+  "doc_id": null,
+  "detail": {
+   "report_intake_enabled": false
+  },
+  "user": "admin"
+ },
+ {
+  "ts": 1792973603.1036603,
+  "action": "login",
+  "doc_id": null,
+  "detail": "admin",
+  "user": "admin"
+ },
+ {
+  "ts": 1792973604.442134,
+  "action": "settings_update",
+  "doc_id": null,
+  "detail": {
+   "report_intake_enabled": true
+  },
+  "user": "admin"
+ },
+ {
+  "ts": 1792973607.2125003,
+  "action": "settings_update",
+  "doc_id": null,
+  "detail": {
+   "report_intake_enabled": false
+  },
+  "user": "admin"
+ },
+ {
+  "ts": 1792973647.3446229,
+  "action": "login",
+  "doc_id": null,
+  "detail": "admin",
+  "user": "admin"
+ },
+ {
+  "ts": 1792973648.3226147,
+  "action": "settings_update",
+  "doc_id": null,
+  "detail": {
+   "report_intake_enabled": true
+  },
+  "user": "admin"
+ },
+ {
+  "ts": 1792973657.3799777,
+  "action": "settings_update",
+  "doc_id": null,
+  "detail": {
+   "report_intake_enabled": false
+  },
+  "user": "admin"
+ },
+ {
+  "ts": 1792990537.0588207,
+  "action": "login",
+  "doc_id": null,
+  "detail": "admin",
+  "user": "admin"
+ },
+ {
+  "ts": 1792990540.8738267,
+  "action": "login",
+  "doc_id": null,
+  "detail": "admin",
+  "user": "admin"
+ },
+ {
+  "ts": 1792990541.2125971,
+  "action": "reports_config_update",
+  "doc_id": null,
+  "detail": {
+   "forecast_report_enabled": true
+  },
+  "user": "admin"
+ },
+ {
+  "ts": 1792990547.093098,
+  "action": "login",
+  "doc_id": null,
+  "detail": "admin",
+  "user": "admin"
+ },
+ {
+  "ts": 1792990547.1025593,
+  "action": "reports_config_update",
+  "doc_id": null,
+  "detail": {
+   "forecast_report_enabled": false
+  },
+  "user": "admin"
+ },
+ {
+  "ts": 1792990547.1059377,
+  "action": "reports_config_update",
+  "doc_id": null,
+  "detail": {
+   "forecast_report_enabled": true
+  },
+  "user": "admin"
+ },
+ {
+  "ts": 1792990547.117259,
+  "action": "data_rollback",
+  "doc_id": null,
+  "detail": "ts=1792965866.5291438 removed=0",
+  "user": "admin"
+ },
+ {
+  "ts": 1792990554.255214,
+  "action": "login",
+  "doc_id": null,
+  "detail": "admin",
+  "user": "admin"
+ },
+ {
+  "ts": 1792990554.2735114,
+  "action": "data_rollback",
+  "doc_id": null,
+  "detail": "ts=1792965866.5291438 removed=0",
+  "user": "admin"
+ },
+ {
+  "ts": 1792990567.2688675,
+  "action": "login",
+  "doc_id": null,
+  "detail": "admin",
+  "user": "admin"
+ },
+ {
+  "ts": 1792990567.2865124,
+  "action": "data_rollback",
+  "doc_id": null,
+  "detail": "ts=1792965866.5291438 removed=0",
+  "user": "admin"
+ },
+ {
+  "ts": 1792990572.590261,
+  "action": "login",
+  "doc_id": null,
+  "detail": "admin",
+  "user": "admin"
+ },
+ {
+  "ts": 1792990572.6208491,
+  "action": "data_import",
+  "doc_id": null,
+  "detail": "added=1 rejected=0 dupes=0",
+  "user": "admin"
+ },
+ {
+  "ts": 1792990572.6422033,
+  "action": "data_rollback",
+  "doc_id": null,
+  "detail": "ts=1792990572.6199324 removed=1",
+  "user": "admin"
+ },
+ {
+  "ts": 1792996371.4399183,
+  "action": "login",
+  "doc_id": null,
+  "detail": "admin",
+  "user": "admin"
+ },
+ {
+  "ts": 1792996381.875719,
+  "action": "login",
+  "doc_id": null,
+  "detail": "admin",
+  "user": "admin"
+ },
+ {
+  "ts": 1792996419.5297816,
+  "action": "login",
+  "doc_id": null,
+  "detail": "admin",
+  "user": "admin"
+ },
+ {
+  "ts": 1792997338.028324,
+  "action": "login",
+  "doc_id": null,
+  "detail": "admin",
+  "user": "admin"
+ },
+ {
+  "ts": 1792997341.5334125,
+  "action": "anomaly_decision",
+  "doc_id": null,
+  "detail": {
+   "key": "industry_total|Сырдарьинский|9",
+   "action": "checked_ok",
+   "status": "reviewed_ok"
+  },
+  "user": {
+   "id": "u-admin",
+   "username": "admin",
+   "password_hash": "2c7ad0231d4005d4bddc15c041a8c3a1e44decbfd414349697399cb83515b4b6",
+   "role": "admin",
+   "name": "Administrator",
+   "lang": "ru",
+   "active": true
+  }
+ },
+ {
+  "ts": 1792998707.4131932,
+  "action": "login",
+  "doc_id": null,
+  "detail": "admin",
+  "user": "admin"
+ },
+ {
+  "ts": 1792998749.2867467,
+  "action": "login",
+  "doc_id": null,
+  "detail": "admin",
+  "user": "admin"
+ },
+ {
+  "ts": 1792998770.5642307,
+  "action": "login",
+  "doc_id": null,
+  "detail": "admin",
+  "user": "admin"
+ },
+ {
+  "ts": 1792998787.481144,
+  "action": "login",
+  "doc_id": null,
+  "detail": "admin",
+  "user": "admin"
+ },
+ {
+  "ts": 1793032161.5006518,
+  "action": "login",
+  "doc_id": null,
+  "detail": "admin",
+  "user": "admin"
+ },
+ {
+  "ts": 1793032168.349868,
+  "action": "login",
+  "doc_id": null,
+  "detail": "admin",
+  "user": "admin"
+ },
+ {
+  "ts": 1793032176.2798824,
+  "action": "login",
+  "doc_id": null,
+  "detail": "admin",
+  "user": "admin"
+ }
+]

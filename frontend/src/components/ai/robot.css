@@ -1,0 +1,121 @@
+/* AiAnalystRobot — CSS keyframes. Only `transform` and `opacity` are animated
+   (GPU-friendly, no layout/paint churn). All motion is disabled under
+   `prefers-reduced-motion: reduce` via the .rr-motion guard applied by the
+   component.
+
+   Groups targeted (inside the SVG):
+     #rr-root   — whole robot, idle float
+     #rr-head   — subtle head tilt
+     #rr-eyes   — blink (scaleY)
+     #rr-shadow — scales with the float
+     #rr-rightArm — wave (greeting) / raise (alert)
+     #rr-thinking — three-dot indicator (thinking)
+     #rr-mic    — mic light (speaking)
+*/
+
+/* ---------- idle ---------- */
+@keyframes rr-float {
+  0%, 100% { transform: translateY(0); }
+  50%      { transform: translateY(-6px); }
+}
+@keyframes rr-shadow {
+  0%, 100% { transform: scaleX(1); opacity: .28; }
+  50%      { transform: scaleX(.82); opacity: .18; }
+}
+@keyframes rr-head-tilt {
+  0%, 100% { transform: rotate(0deg); }
+  50%      { transform: rotate(2deg); }
+}
+@keyframes rr-blink {
+  0%, 92%, 100% { transform: scaleY(1); }
+  96%           { transform: scaleY(.1); }
+}
+
+/* ---------- greeting ---------- */
+@keyframes rr-wave {
+  0%   { transform: rotate(0deg); }
+  20%  { transform: rotate(28deg); }
+  45%  { transform: rotate(-8deg); }
+  70%  { transform: rotate(20deg); }
+  100% { transform: rotate(0deg); }
+}
+@keyframes rr-pop {
+  0%   { transform: scale(.4); opacity: 0; }
+  60%  { transform: scale(1.12); opacity: 1; }
+  100% { transform: scale(1); opacity: 1; }
+}
+
+/* ---------- thinking ---------- */
+@keyframes rr-dot {
+  0%, 60%, 100% { transform: translateY(0); opacity: .35; }
+  30%           { transform: translateY(-5px); opacity: 1; }
+}
+@keyframes rr-look {
+  0%, 100% { transform: translateX(-2px); }
+  50%      { transform: translateX(2px); }
+}
+
+/* ---------- speaking ---------- */
+@keyframes rr-pulse {
+  0%, 100% { transform: scale(1); opacity: .55; }
+  50%      { transform: scale(1.25); opacity: 1; }
+}
+@keyframes rr-glow {
+  0%, 100% { opacity: .35; }
+  50%      { opacity: 1; }
+}
+
+/* ---------- alert ---------- */
+@keyframes rr-flash {
+  0%   { transform: scale(1);   opacity: 0; }
+  30%  { transform: scale(1.6); opacity: .9; }
+  100% { transform: scale(2.2); opacity: 0; }
+}
+@keyframes rr-raise {
+  0%, 100% { transform: rotate(0deg); }
+  40%      { transform: rotate(-30deg); }
+}
+
+/* ---------- apply per state ---------- */
+.rr-anim #rr-root  { animation: rr-float 3s ease-in-out infinite; }
+.rr-anim #rr-shadow{ animation: rr-shadow 3s ease-in-out infinite; transform-origin: center; }
+.rr-anim #rr-head  { animation: rr-head-tilt 3s ease-in-out infinite; transform-origin: 50% 80%; }
+.rr-anim #rr-eyes  { animation: rr-blink 5s ease-in-out infinite; transform-origin: center; }
+
+/* greeting (one-shot, 1.4s) */
+.rr-greeting #rr-rightArm { animation: rr-wave 1.4s ease-in-out 2; transform-origin: 20% 20%; }
+.rr-greeting #rr-eyes { animation: rr-pop .5s ease-out 1; transform-origin: center; }
+
+/* thinking */
+.rr-thinking #rr-eyes  { animation: rr-look 2.4s ease-in-out infinite; transform-origin: center; }
+.rr-thinking .rr-dot   { animation: rr-dot 1.2s ease-in-out infinite; transform-origin: center; }
+.rr-thinking .rr-dot:nth-child(2) { animation-delay: .2s; }
+.rr-thinking .rr-dot:nth-child(3) { animation-delay: .4s; }
+
+/* speaking */
+.rr-speaking #rr-eyes  { animation: rr-glow 1.1s ease-in-out infinite; }
+.rr-speaking #rr-mic   { animation: rr-pulse 1.1s ease-in-out infinite; transform-origin: center; }
+
+/* alert (one-shot, .5s flash + raise) */
+.rr-alert #rr-rightArm { animation: rr-raise .9s ease-in-out infinite; transform-origin: 20% 20%; }
+.rr-alert .rr-flash    { animation: rr-flash .5s ease-out 3; transform-origin: center; opacity: 0; }
+
+/* disabled: static + eyes off (handled by markup too) */
+.rr-disabled { filter: grayscale(1); opacity: .55; }
+
+/* Reduced motion — turn everything off, static pose */
+@media (prefers-reduced-motion: reduce) {
+  .rr-anim #rr-root, .rr-anim #rr-shadow, .rr-anim #rr-head, .rr-anim #rr-eyes,
+  .rr-greeting #rr-rightArm, .rr-greeting #rr-eyes,
+  .rr-thinking #rr-eyes, .rr-thinking .rr-dot,
+  .rr-speaking #rr-eyes, .rr-speaking #rr-mic,
+  .rr-alert #rr-rightArm, .rr-alert .rr-flash {
+    animation: none !important;
+  }
+  .rr-thinking .rr-dot { opacity: 1; }
+  .rr-alert .rr-flash  { opacity: 0; }
+}
+
+/* Floating button focus ring */
+.rr-fab:focus-visible { outline: 3px solid rgba(31,95,224,.5); outline-offset: 2px; }
+.rr-fab:focus { outline: none; }

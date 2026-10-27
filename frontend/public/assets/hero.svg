@@ -1,0 +1,30 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1440 280" preserveAspectRatio="xMidYMid slice">
+  <defs>
+    <linearGradient id="sky" x1="0" y1="0" x2="0" y2="1">
+      <stop offset="0" stop-color="#1F5FE0"/>
+      <stop offset="0.6" stop-color="#0B3FA8"/>
+      <stop offset="1" stop-color="#08307f"/>
+    </linearGradient>
+  </defs>
+  <rect width="1440" height="280" fill="url(#sky)"/>
+  <!-- river -->
+  <path d="M0 210 Q 360 190 720 210 T 1440 205 L1440 280 L0 280 Z" fill="#0a4bd0" opacity="0.35"/>
+  <path d="M0 225 Q 360 208 720 224 T 1440 220 L1440 280 L0 280 Z" fill="#0EA5A4" opacity="0.25"/>
+  <!-- skyline silhouettes -->
+  <g fill="#062a63" opacity="0.55">
+    <rect x="120" y="150" width="40" height="70"/>
+    <rect x="180" y="130" width="30" height="90"/>
+    <rect x="230" y="160" width="55" height="60"/>
+    <rect x="980" y="140" width="35" height="80"/>
+    <rect x="1030" y="120" width="28" height="100"/>
+    <rect x="1075" y="155" width="50" height="65"/>
+    <rect x="1140" y="135" width="34" height="85"/>
+    <rect x="1190" y="165" width="60" height="55"/>
+  </g>
+  <!-- baikonur-style tower silhouette -->
+  <g fill="#062a63" opacity="0.7">
+    <path d="M720 60 L728 150 L712 150 Z"/>
+    <rect x="712" y="150" width="16" height="70"/>
+    <path d="M700 110 Q720 80 740 110 Q720 100 700 110 Z"/>
+  </g>
+</svg>

@@ -1,0 +1,38 @@
+[
+ {
+  "ts": 1792998761.4732406,
+  "metric": "industry_total",
+  "metric_label": "Өнеркәсіп (барлығы)",
+  "region": "Кызылординская область",
+  "period": "2026 қаңтар–қыркүйек (сумм.",
+  "period_month": 9,
+  "lang": "kk",
+  "format": "pdf",
+  "file": "plat_pdf_20261026_1212.pdf",
+  "by": ""
+ },
+ {
+  "ts": 1792998777.6726995,
+  "metric": "industry_total",
+  "metric_label": "Өнеркәсіп (барлығы)",
+  "region": "Кызылординская область",
+  "period": "2026 қаңтар–қыркүйек (сумм.",
+  "period_month": 9,
+  "lang": "kk",
+  "format": "pdf",
+  "file": "plat_pdf_20261026_1212.pdf",
+  "by": "admin"
+ },
+ {
+  "ts": 1792998787.6186202,
+  "metric": "processing",
+  "metric_label": "Обрабатывающая",
+  "region": "Кызылординская область",
+  "period": "2026 янв–сентябрь (суммарно)",
+  "period_month": 9,
+  "lang": "ru",
+  "format": "xlsx",
+  "file": "plat_xlsx_20261026_1213.xlsx",
+  "by": "admin"
+ }
+]

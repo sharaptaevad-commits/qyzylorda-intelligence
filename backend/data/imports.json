@@ -1,0 +1,30 @@
+[
+ {
+  "ts": 1792965866.5291438,
+  "doc_id": "3bed76f4be",
+  "decided_by": "user",
+  "count": 0,
+  "records": []
+ },
+ {
+  "ts": 1792990572.6199324,
+  "doc_id": "data-mgmt",
+  "decided_by": "admin",
+  "note": "T-04-01-M",
+  "count": 1,
+  "records": [
+   {
+    "metric_key": "water",
+    "region": "Аральский",
+    "period": "январь",
+    "unit": "тыс. м³",
+    "value": "1234",
+    "year": "2027",
+    "source": "T-04-01-M",
+    "confidence": "imported",
+    "updated": 1792990572.6051044
+   }
+  ],
+  "rolled_back": true
+ }
+]

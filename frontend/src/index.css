@@ -1,0 +1,186 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+:root {
+  --brand: #1F5FE0;
+  --brand-hover: #194DB8;
+  --brand-dark: #0B3FA8;
+  --navy: #0F2A4A;
+  --bg: #F3F6FB;
+  --card: #FFFFFF;
+  --softblue: #E8F0FE;
+  --bord: #E3E8F0;
+  --txt2: #64748B;
+  --pos: #16A34A;
+  --neg: #DC2626;
+  --warn: #D97706;
+}
+
+html, body, #root { height: 100%; }
+body {
+  font-family: 'Inter', system-ui, -apple-system, 'Segoe UI', sans-serif;
+  background: var(--bg);
+  color: var(--navy);
+  font-size: 14px;
+  -webkit-font-smoothing: antialiased;
+  text-rendering: optimizeLegibility;
+}
+
+@layer components {
+  .card { @apply bg-white rounded-[12px] border border-[#E5E9F0] shadow-card; }
+  .card-pad { @apply p-5; }
+  .card-hover { @apply card transition-shadow hover:shadow-card-hover; }
+
+  .lbl { @apply text-[11px] font-semibold uppercase tracking-wider text-[#64748B]; }
+  .num { @apply tabular-nums text-right font-semibold; }
+
+  .btn { @apply inline-flex items-center justify-center gap-1.5 px-4 py-2 rounded-lg text-sm font-semibold transition-colors focus:outline-none focus:ring-2 focus:ring-brand/40 disabled:opacity-50 disabled:cursor-not-allowed; }
+  .btn-primary { @apply btn bg-[#1F5FE0] text-white hover:bg-[#194DB8]; }
+  .btn-ghost { @apply btn bg-white text-[#0F2A4A] border border-[#E3E8F0] hover:bg-[#F3F6FB]; }
+  .btn-outline-white { @apply btn bg-transparent text-white border border-white/70 hover:bg-white/10; }
+  .btn-danger { @apply btn bg-white text-[#DC2626] border border-[#E3E8F0] hover:bg-[#FEF2F2]; }
+
+  .input { @apply w-full px-3 py-2 rounded-lg border border-[#E3E8F0] text-sm bg-white text-[#0F2A4A] placeholder-[#9AA6B8] focus:outline-none focus:ring-2 focus:ring-[#1F5FE0]/30 focus:border-[#1F5FE0] transition; }
+  .select { @apply input cursor-pointer; }
+
+  /* Badges */
+  .badge { @apply inline-flex items-center gap-1 px-2 py-0.5 rounded-md text-[11px] font-semibold; }
+  .badge-pos { @apply badge bg-[#E7F6EC] text-[#16A34A]; }
+  .badge-neg { @apply badge bg-[#FDECEC] text-[#DC2626]; }
+  .badge-warn { @apply badge bg-[#FDF3E3] text-[#D97706]; }
+  .badge-neutral { @apply badge bg-[#EEF1F6] text-[#64748B]; }
+  .badge-brand { @apply badge bg-[#E8F0FE] text-[#1F5FE0]; }
+  .badge-forecast { @apply badge bg-[#F3E8FD] text-[#7C3AED]; }
+
+  /* Top nav */
+  .nav-link { @apply px-3 py-2 rounded-lg text-sm font-medium text-[#475569] hover:text-[#1F5FE0] hover:bg-[#E8F0FE]/60 transition-colors whitespace-nowrap; }
+  .nav-link-active { @apply px-3 py-2 rounded-lg text-sm font-semibold text-[#1F5FE0] bg-[#E8F0FE] whitespace-nowrap; }
+  .nav-dropdown-item { @apply flex items-center gap-2.5 w-full px-3 py-2 rounded-lg text-sm text-[#475569] hover:bg-[#F3F6FB] hover:text-[#0F2A4A] transition-colors text-left; }
+  .nav-dropdown-item-active { @apply nav-dropdown-item bg-[#E8F0FE] text-[#1F5FE0] font-semibold; }
+
+  /* KPI icon badge */
+  .icon-badge { @apply w-11 h-11 rounded-xl bg-[#E8F0FE] text-[#1F5FE0] flex items-center justify-center shrink-0; }
+
+  /* Section heading */
+  .section-title { @apply flex items-center gap-2 text-base font-bold text-[#0F2A4A]; }
+
+  /* Data table */
+  .tbl { @apply w-full text-sm; }
+  .tbl thead th { @apply text-left text-[11px] font-semibold uppercase tracking-wider text-[#64748B] px-4 py-3 border-b border-[#E3E8F0] bg-[#F8FAFC] sticky top-0; }
+  .tbl tbody td { @apply px-4 py-3 border-b border-[#F0F3F8] text-[#0F2A4A] align-middle; }
+  .tbl tbody tr:hover { @apply bg-[#F8FAFC]; }
+
+  .chip { @apply inline-flex items-center gap-1.5 px-3 py-1.5 rounded-full text-sm font-medium; }
+}
+
+/* Scrollbar */
+::-webkit-scrollbar { width: 10px; height: 10px; }
+::-webkit-scrollbar-thumb { background: #CBD5E1; border-radius: 6px; }
+::-webkit-scrollbar-thumb:hover { background: #94A3B8; }
+::-webkit-scrollbar-track { background: transparent; }
+
+/* Focus visible for accessibility */
+a:focus-visible, button:focus-visible, input:focus-visible, select:focus-visible {
+  outline: 2px solid #1F5FE0;
+  outline-offset: 2px;
+}
+
+/* ------------------------------------------------------------------ */
+/* Chart styling (Recharts) — presentation only, no data/logic change  */
+/* ------------------------------------------------------------------ */
+/* Light, solid grid (no dashes), 1px, #E5E9F0 */
+.recharts-cartesian-grid-horizontal .recharts-cartesian-grid-line,
+.recharts-cartesian-grid-vertical .recharts-cartesian-grid-line {
+  stroke: #E5E9F0;
+  stroke-width: 1;
+  stroke-dasharray: none;
+}
+/* Thin grey axes, 12px labels #64748B */
+.recharts-cartesian-axis-line, .recharts-cartesian-axis-tick-line {
+  stroke: #CBD5E1;
+  stroke-width: 1;
+}
+.recharts-cartesian-axis-tick-value,
+.recharts-cartesian-axis-tick text {
+  font-size: 12px;
+  fill: #64748B;
+}
+/* Reference / 100% line stays thin grey */
+.recharts-reference-line-line { stroke: #94A3B8; stroke-width: 1; }
+/* Hover: vertical cursor thin grey, dots enlarge to r5 (handled per-Line activeDot) */
+.recharts-tooltip-cursor { stroke: #CBD5E1; stroke-width: 1; fill: rgba(148,163,184,0.06); }
+.recharts-default-tooltip {
+  border-radius: 10px;
+  border: 1px solid #E5E9F0;
+  box-shadow: 0 4px 16px rgba(15,42,74,0.08);
+}
+/* Line draw-in animation ~600ms (Recharts default is 1500ms; tune down) */
+.recharts-line .recharts-curve { animation-duration: 600ms; }
+.recharts-line .recharts-dot circle,
+.recharts-line .recharts-active-dot circle {
+  stroke: none;
+}
+/* Legend: centered above the chart by default */
+.recharts-legend {
+  justify-content: center;
+}
+.recharts-legend-item {
+  font-size: 12px;
+  color: #64748B;
+}
+
+/* Reduced motion: turn off all chart animation */
+@media (prefers-reduced-motion: reduce) {
+  .recharts-line .recharts-curve,
+  .recharts-area .recharts-area-area,
+  .recharts-bar .recharts-rectangle,
+  .recharts-pie .recharts-sector {
+    animation: none !important;
+    transition: none !important;
+  }
+  .recharts-surface * { transition: none !important; }
+}
+
+/* ---- Report Intake module: small shared form/button styles ---- */
+.ri-input {
+  width: 100%; border: 1px solid #E3E8F0; border-radius: 0.65rem;
+  padding: 0.5rem 0.75rem; font-size: 0.875rem; background: #fff; color: #16213A;
+}
+.ri-input:focus { outline: none; border-color: #2563EB; box-shadow: 0 0 0 3px rgba(37,99,235,0.12); }
+.ri-btn {
+  background: #2563EB; color: #fff; font-weight: 600; font-size: 0.875rem;
+  padding: 0.5rem 0.9rem; border-radius: 0.65rem; cursor: pointer; border: 0;
+}
+.ri-btn:hover { background: #1D4ED8; }
+.ri-btn:disabled { opacity: 0.5; cursor: not-allowed; }
+.ri-btn-emerald { background: #059669; } .ri-btn-emerald:hover { background: #047857; }
+.ri-btn-rose { background: #E11D48; } .ri-btn-rose:hover { background: #BE123C; }
+
+/* ---- Filter cards (forecast/quality/etc.): consistent 40px inputs ---- */
+.f-input {
+  width: 100%; height: 40px; border: 1px solid #E3E8F0; border-radius: 0.65rem;
+  padding: 0 0.75rem; font-size: 0.875rem; background: #fff; color: #16213A;
+}
+/* focus ring only on keyboard focus; no thick ring on mouse click */
+.f-input:focus-visible {
+  outline: none; border-color: #2563EB;
+  box-shadow: 0 0 0 3px rgba(37, 99, 235, 0.18);
+}
+.f-input:focus:not(:focus-visible) { border-color: #2563EB; }
+.f-input:disabled { background: #F4F6FA; color: #98A2B3; cursor: not-allowed; }
+select.f-input { appearance: auto; }
+
+/* ---- Buttons (reports/cards): consistent 40px ---- */
+.f-btn {
+  height: 40px; padding: 0 0.9rem; border-radius: 0.65rem; font-size: 0.875rem;
+  font-weight: 600; cursor: pointer; border: 1px solid transparent;
+  display: inline-flex; align-items: center; justify-content: center; gap: 0.4rem;
+  transition: background-color .15s, border-color .15s;
+}
+.f-btn:disabled { opacity: 0.5; cursor: not-allowed; }
+.f-btn:focus-visible { outline: none; box-shadow: 0 0 0 3px rgba(37,99,235,0.2); }
+.f-btn-primary { background: #2563EB; color: #fff; }
+.f-btn-primary:hover:not(:disabled) { background: #1D4ED8; }
+.f-btn-ghost { background: #fff; color: #1F5FE0; border-color: #E3E8F0; }
+.f-btn-ghost:hover:not(:disabled) { background: #F4F6FA; border-color: #2563EB; }

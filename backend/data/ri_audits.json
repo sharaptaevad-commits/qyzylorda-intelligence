@@ -1,0 +1,42 @@
+[
+ {
+  "id": "ri_aud_abb3079e973b",
+  "action": "entity_created",
+  "entity_id": "ent_25acc5f42f02",
+  "report_id": null,
+  "user": "admin",
+  "user_role": "admin",
+  "detail": {
+   "name": ""
+  },
+  "ts": 1792973650
+ },
+ {
+  "id": "ri_aud_0dfe282df183",
+  "action": "report_uploaded",
+  "entity_id": "ent_25acc5f42f02",
+  "report_id": "rep_b27fda559964",
+  "user": "admin",
+  "user_role": "admin",
+  "detail": {
+   "period": "2026-Q3",
+   "version": 1,
+   "file": "_ri_test.csv"
+  },
+  "ts": 1792973650
+ },
+ {
+  "id": "ri_aud_b44e3556ef73",
+  "action": "report_checked",
+  "entity_id": "ent_25acc5f42f02",
+  "report_id": "rep_b27fda559964",
+  "user": "admin",
+  "user_role": "admin",
+  "detail": {
+   "errors": 2,
+   "warnings": 0,
+   "status": "needs_fix"
+  },
+  "ts": 1792973653
+ }
+]

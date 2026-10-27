@@ -1,0 +1,52 @@
+[
+ {
+  "id": "rep_b27fda559964",
+  "entity_id": "ent_25acc5f42f02",
+  "period": "2026-Q3",
+  "status": "needs_fix",
+  "versions": [
+   {
+    "version": 1,
+    "ts": 1792973650,
+    "file": "_ri_test.csv",
+    "sha256": "b3c687f69d0f596bcd8f3dbfb18999de89028bfaccca994660327218b4110adc",
+    "rows": [
+     {
+      "Аудан": "А",
+      "Өнеркәсіп": "50",
+      "Жалпы": "100"
+     }
+    ],
+    "columns": [
+     "Аудан",
+     "Өнеркәсіп",
+     "Жалпы"
+    ]
+   }
+  ],
+  "created": 1792973650,
+  "last_check": {
+   "ts": 1792973653,
+   "errors": [
+    {
+     "sheet": 1,
+     "row": 2,
+     "column": "Аудан",
+     "kind": "type",
+     "message": "Аудан: сан емес ('А')",
+     "expected": "Сан мән"
+    },
+    {
+     "sheet": 1,
+     "row": 2,
+     "column": "Жалпы",
+     "kind": "sum_mismatch",
+     "message": "Жалпы (100.0) құрамдас бөліктер қосындысынан (50.0) сәйкес келмейді",
+     "expected": "50.0"
+    }
+   ],
+   "warnings": [],
+   "checked_by": "admin"
+  }
+ }
+]
