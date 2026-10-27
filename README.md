@@ -1,0 +1,1 @@
+# qyzylorda-intelligence
